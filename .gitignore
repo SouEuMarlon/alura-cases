@@ -1,0 +1,33 @@
+# Arquivos de compilação
+*.o
+*.out
+*.exe
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+
+# Arquivos de dependências
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos de build
+/build/
+/dist/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração sensíveis
+.env
+.env.local
+.env.*.local
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos de cache
+.cache/
