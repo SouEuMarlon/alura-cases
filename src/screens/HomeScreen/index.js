@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from '../../components/Link';
 import Footer from '../../components/patterns/Footer';
 import { Box, Button, Icon, Image, Input, Text } from '../../theme/components';
@@ -96,6 +97,9 @@ function SideImage() {
 export default function HomeScreen() {
   return (
     <Box>
+      <Head>
+        <title>Home - Alura Cases</title>
+      </Head>
       <Box
         as="main"
         styleSheet={{
